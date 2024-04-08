@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/GokulanRatna.github.io/static/css/main.adc20bed.css",
-    "main.js": "/GokulanRatna.github.io/static/js/main.e3d2833c.js",
-    "static/js/453.acca0757.chunk.js": "/GokulanRatna.github.io/static/js/453.acca0757.chunk.js",
-    "static/media/logo.svg": "/GokulanRatna.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/GokulanRatna.github.io/index.html",
-    "main.adc20bed.css.map": "/GokulanRatna.github.io/static/css/main.adc20bed.css.map",
-    "main.e3d2833c.js.map": "/GokulanRatna.github.io/static/js/main.e3d2833c.js.map",
-    "453.acca0757.chunk.js.map": "/GokulanRatna.github.io/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/static/css/main.adc20bed.css",
+    "main.js": "/static/js/main.91c50aa3.js",
+    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.adc20bed.css.map": "/static/css/main.adc20bed.css.map",
+    "main.91c50aa3.js.map": "/static/js/main.91c50aa3.js.map",
+    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adc20bed.css",
-    "static/js/main.e3d2833c.js"
+    "static/js/main.91c50aa3.js"
   ]
 }
