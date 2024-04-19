@@ -1,21 +1,21 @@
 import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { useNavigate } from 'react-router-dom';
 import Navigation from './Navigation';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Home = () => {
-  const navigate = useNavigate(); // Create navigate function object
+  const navigate = useNavigate();
 
   useEffect(() => {
     AOS.init({
-      duration: 2000, // Animation duration
-      once: true, // Animation occurs only once during scroll
+      duration: 2000,
+      once: true,
     });
   }, []);
 
   const navigateToProjects = () => {
-    navigate('/projects'); // Use React Router's navigate to go to projects
+    navigate('/projects');
   };
 
   return (
@@ -34,20 +34,23 @@ const Home = () => {
           Welcome to My Digital World
         </h1>
         <div style={{
-          width: '300px',
+          width: '300px',  // Circle diameter
           height: '300px',
           overflow: 'hidden',
           margin: '0 auto',
-          borderRadius: '55%'
+          borderRadius: '50%',
+          position: 'relative',
         }}>
           <img
             src={`${process.env.PUBLIC_URL}/assets/images/earth.gif`}
             alt="Spinning Earth"
-            className="img-fluid"
             style={{
-              width: 'auto',
+              position: 'absolute',
+              top: '50%',
+              left: '50%',
               height: '100%',
-              marginLeft: '0%'
+              width: 'auto',
+              transform: 'translate(-50%, -50%)',
             }}
             data-aos="zoom-in"
           />
